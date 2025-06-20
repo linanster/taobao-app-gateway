@@ -31,3 +31,6 @@ coverage/
 
 # TypeScript 缓存文件
 *.tsbuildinfo
+
+# 应用日志
+log.txt
