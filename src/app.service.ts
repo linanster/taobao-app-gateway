@@ -7,7 +7,7 @@ export class AppService {
     const msg = process.env.MSG || 'Hello,World!';
     const logLine = `[${new Date().toISOString()}] getHello called: ${msg}\n`;
     console.log(logLine);
-    fs.appendFileSync('log.txt', logLine);
+    fs.appendFileSync(`${process.cwd()}/logs/log.txt`, logLine);
     return msg;
   }
 }

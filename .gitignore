@@ -33,4 +33,4 @@ coverage/
 *.tsbuildinfo
 
 # 应用日志
-log.txt
+logs/*
